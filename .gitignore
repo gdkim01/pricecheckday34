@@ -1,0 +1,16 @@
+# 내 주소와 키가 든 파일은 Git에 올리지 않습니다.
+config.js
+# 키와 비밀 값이 든 파일은 올리지 않습니다.
+.env
+.env.*
+!.env.example
+# Vercel이 만드는 폴더
+.vercel/
+# 설치된 부품
+node_modules/
+# 백업
+*.bak
+*.zip
+
+# Claude Code 로컬 전용 설정(권한·잠금 파일, 내 PC 전용)
+.claude/
